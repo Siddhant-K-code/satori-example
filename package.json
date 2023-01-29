@@ -1,0 +1,34 @@
+{
+  "name": "satori-example",
+  "version": "1.0.0",
+  "description": "Generate PNGs using HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node generator.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhant-K-code/satori-example.git"
+  },
+  "keywords": [
+    "satori",
+    "png",
+    "svg",
+    "html",
+    "css",
+    "generator",
+    "example"
+  ],
+  "author": "Siddhant Khare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhant-K-code/satori-example/issues"
+  },
+  "homepage": "https://github.com/Siddhant-K-code/satori-example#readme",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.2.0",
+    "satori": "^0.1.2",
+    "satori-html": "^0.3.2"
+  }
+}
